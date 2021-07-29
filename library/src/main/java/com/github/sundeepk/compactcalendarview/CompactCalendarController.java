@@ -653,6 +653,11 @@ class CompactCalendarController {
         setToMidnight(currentCalender);
     }
 
+    public Calendar getCurrentDate(){
+        return todayCalender;
+    }
+
+
     private void setToMidnight(Calendar calendar) {
         calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
