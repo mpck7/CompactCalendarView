@@ -170,7 +170,7 @@ public class CompactCalendarView extends View {
         invalidate();
     }
 
-    public Calendar getCurrentDate(){
+    public Date getCurrentDate(){
         return compactCalendarController.getCurrentDate();
     }
 
