@@ -653,8 +653,8 @@ class CompactCalendarController {
         setToMidnight(currentCalender);
     }
 
-    public Calendar getCurrentDate(){
-        return todayCalender;
+    public Date getCurrentDate(){
+        return currentDate;
     }
 
 
